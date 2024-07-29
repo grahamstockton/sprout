@@ -1,4 +1,3 @@
-import './App.css';
 import HeaderBar from './components/headerbar';
 import SensorCard from './components/sensorcard';
 
@@ -10,7 +9,7 @@ const App = () => {
   ];
 
   return (
-    <div className="App">
+    <div className="text-center">
       <HeaderBar />
       {sensors}
       <div className="btn btn-ghost btn-circle avatar">
